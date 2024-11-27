@@ -7,16 +7,62 @@
     ;
 }
 
+body {
+    margin:0;
+}
+
 #hd {
     grid-area: hd;
     background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
 }
 
 #mainwrapper {
     display: grid;
-    grid-template-columns: 47.5% 1fr 47.5%;
-    grid-template-rows: 400px 20px 400px 150px;
+    grid-template-columns: 50% 1fr;
+    grid-template-rows: 300px 300px 150px;
     grid-template-areas: 
-    ''
+    'sc1 img1'
+    'img2 sc2'
+    'ft ft'
     ;
+    gap: 20px;
+    margin-top: 10px;
 }
+
+#sc1 {
+    grid-area: sc1;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#img1 {
+    grid-area: img1;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#sc2 {
+    grid-area: sc2;
+    background-color: chartreuse;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#img2 {
+    grid-area: img2;
+    background-color: chocolate;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#ft {
+    grid-area: ft;
+    background-color: gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
