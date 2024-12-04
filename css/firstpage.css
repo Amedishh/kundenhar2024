@@ -81,9 +81,13 @@ body {
 
 #sc1 {
     grid-area: sc1;
-    background-color: chartreuse;
     padding: 5px;
     border-radius: 5px;
+    font-family: 'nunito sans';
+    font-size: 21px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 #img1 {
@@ -92,27 +96,34 @@ body {
     padding: 0px;
     border-radius: 5px;
     display: flex;
+    border-radius: 20px;
 }
 
 #img1 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 
 #sc2 {
     grid-area: sc2;
-    background-color: chartreuse;
     padding: 5px;
     border-radius: 5px;
 }
 
 #img2 {
     grid-area: img2;
-    background-color: chocolate;
     padding: 5px;
     border-radius: 5px;
+}
+
+#img2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
 }
 
 #ft {
