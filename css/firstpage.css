@@ -9,6 +9,7 @@
 
 body {
     margin:0;
+    background-image: url(/img/leaves.webp);
 }
 
 #hd1 {
@@ -19,7 +20,7 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 21px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #hd2 {
@@ -31,6 +32,7 @@ body {
     align-items: center;
     font-size: 21px;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
 }
 
 #hd3 {
@@ -66,6 +68,17 @@ body {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hd1:hover, #hd2:hover, #hd3:hover, #hd4:hover, #hd5:hover {
+    color: white;
+    font-size: 1.8rem;
+    transition: 0.3s;
+}
+
 #mainwrapper {
     display: grid;
     grid-template-columns: 50% 1fr;
@@ -80,10 +93,11 @@ body {
 }
 
 #sc1 {
+    background-color: white;;
     grid-area: sc1;
-    padding: 5px;
+    padding: 20px;
     border-radius: 5px;
-    font-family: 'nunito sans';
+    font-family: "Nunito Sans", sans-serif;
     font-size: 21px;
     line-height: 1.6;
     letter-spacing: 1px;
@@ -93,8 +107,7 @@ body {
 #img1 {
     grid-area: img1;
     background-color: #2ecc71;
-    padding: 0px;
-    border-radius: 5px;
+    padding: 5px;
     display: flex;
     border-radius: 20px;
 }
@@ -109,14 +122,23 @@ body {
 
 #sc2 {
     grid-area: sc2;
-    padding: 5px;
+    background-color: white;
+    padding: 20px;
     border-radius: 5px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 21px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 #img2 {
     grid-area: img2;
     padding: 5px;
     border-radius: 5px;
+    display: flex;
+    border-radius: 20px;
+    background-color: #2ecc71;
 }
 
 #img2 img {
@@ -129,7 +151,26 @@ body {
 #ft {
     grid-area: ft;
     background-color: #155831;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: white;
+    min-height: 200px;
+}
+
+p {
+    font-size: 15px;
+}
+
+#thickp {
+    font-weight: 900;
+}
+
+.liten {
+    font-weight: 400;
 }
 
