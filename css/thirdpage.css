@@ -1,0 +1,80 @@
+#headerwrapper {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 1fr;
+    grid-template-rows: 100px;
+    grid-template-areas: 
+    'hd1 hd2 hd3 hd4 hd5'
+    ;
+}
+
+body {
+    margin:0;
+    background-image: url(/img/leaves.webp);
+}
+
+#hd1 {
+    grid-area: hd1;
+    background-color: #2ecc71;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#hd2 {
+    grid-area: hd2;
+    background-color: #2ecc71;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    
+}
+
+#hd3 {
+    grid-area: hd3;
+    background-color: #2ecc71;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#hd4 {
+    grid-area: hd4;
+    background-color: #2ecc71;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+#hd5 {
+    grid-area: hd5;
+    background-color: #2ecc71;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#hd1:hover, #hd2:hover, #hd3:hover, #hd4:hover, #hd5:hover {
+    color: white;
+    font-size: 1.8rem;
+    transition: 0.3s;
+}
